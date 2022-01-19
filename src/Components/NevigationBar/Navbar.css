@@ -1,0 +1,36 @@
+.myDropdown{
+    background-image: url("../images/menu101.jpg");
+    min-width:550px; 
+}
+.myDropdownMenu{
+    
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:visited{
+    text-decoration: none;
+    color:black
+}
+
+.aptBtn{
+    font-weight:600;
+    background-color:rgb(50, 92, 170)!important;
+    color:white !important;
+    box-shadow:3px 5px 15px rgb(143, 142, 142);
+    transition: 1s;
+}
+
+.aptBtn:hover{
+    transform: scale(1.15);
+}
+/* @media (max-width='600px') {
+    .myDropdown{
+        background-image: url("../images/menu101.jpg");
+        width:250px; 
+    }
+    
+} */
